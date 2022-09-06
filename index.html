@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      /* Global Styles */
+
+      * {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 40px 10%;
+        background: #f5f5f5;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      /* Container Styles */
+      .container {
+        display: flex;
+      }
+      .main-wrapper {
+        flex: 2;
+      }
+      .side-bar {
+        background: #faf9f9;
+        flex: 0.5;
+        padding: 40px;
+        /* background-color: white; */
+      }
+
+      .side-bar ul {
+        padding: 0 40px;
+        list-style: none;
+      }
+
+      .side-bar {
+        background: rgb(230, 230, 231);
+      }
+
+      @media only screen and (max-width: 900px) {
+        .container {
+          flex-direction: column;
+        }
+        .side-bar {
+          background: #000;
+          color: white !important;
+        }
+        .side-bar a {
+          color: white !important;
+        }
+      }
+
+      /* Navigation Menu Styles */
+
+      nav.nav-menu {
+        width: 100%;
+        background-color: #000;
+        padding: 10px;
+      }
+
+      nav.nav-menu ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-size: clamp(0.8rem, 1.2vw, 2rem);
+      }
+
+      .nav-menu .nav-item {
+        padding: 15px;
+        transition: background-color 500ms ease-in-out;
+      }
+
+      .nav-menu .nav-item:hover {
+        cursor: pointer;
+        background-color: #f5f5f54d;
+      }
+
+      .nav-menu .nav-item a {
+        text-decoration: none;
+        color: white;
+      }
+
+      /* Main Content Wrapper Styles */
+      .main-wrapper {
+        background: white;
+        padding: 40px;
+      }
+
+      section {
+        margin-bottom: 60px;
+      }
+
+      section.head,
+      section.youtube-embed {
+        text-align: center;
+      }
+
+      .button-link {
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px 40px;
+        width: fit-content;
+        background: #ca9;
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s transform ease-in-out;
+      }
+
+      .button-link:hover {
+        transform: scale(1.05);
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: justify;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .two-col {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+      .two-col div {
+        width: 50%;
+      }
+
+      @media only screen and (max-width: 900px) {
+        body {
+          padding: 0;
+        }
+
+        .two-col {
+          flex-direction: column;
+        }
+
+        .two-col div {
+          width: 100%;
+        }
+
+        .main-wrapper {
+          padding: 5%;
+        }
+      }
+    </style>
+    <title>How to add value to your home with a whole house remodel | Ruggieri & Co.</title>
+  </head>
+
+  <body>
+    <!-- Navigation Menu -->
+    <nav class="nav-menu">
+      <ul>
+        <li class="nav-item"><a href="https://ruggieriandco.com/">Main</a></li>
+        <li class="nav-item">
+          <a href="https://g.page/Danville-Remodeling?share">Maps</a>
+        </li>
+        <li class="nav-item"><a href="./media.html">Media</a></li>
+        <li class="nav-item">
+          <a href="https://sites.google.com/view/homeremodelingdanville/"
+            >Ruggieri & Co.</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a href="https://danville-home-remodeling.business.site/"
+            >Home Remodeling Danville, CA</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container">
+      <!-- Main Content Wrapper -->
+      <div class="main-wrapper">
+        <section class="head">
+          <h1>How to add value to your home with a whole house remodel</h1>
+        </section>
+
+        <section>
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/CsLBD6VHWEA" title="General Contractor Danville - How to add value to your home with a whole house remodel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <p>
+            Contractor: Your home is likely one of your most significant investments, and it’s essential to ensure you get the most out of it. An entire house remodels can significantly add value to your home and increase your enjoyment of living there. Here are some tips on how to get started.
+          </p>
+          <a
+            class="button-link"
+            href="https://ruggieriandco.com/contractor-how-to-add-value-to-your-home-with-a-whole-house-remodel/"
+            >Read Post</a
+          >
+        </section>
+
+        <section>
+          <div class="two-col">
+            <div>
+              <h2>
+                Contract: Do your research.
+              </h2>
+              <hr>
+              <br>
+              <p>
+                Remodeling your home is a significant investment, so it’s essential to do your research before getting started. Talk to friends and family who have remodeled their homes, and look for advice from experts online or in books. It will help you understand what to expect and give you a better sense of what you want.
+              </p>
+              <p>
+                Once you’ve gathered some ideas, it’s time to start planning you’re remodeling. Make a list of what you want to change, and prioritize based on your budget and the amount of time you have. If you’re working with a contractor, get multiple bids and references before deciding.
+              </p>
+            </div>
+            <div>
+              <img src="https://lh3.googleusercontent.com/geougc/AF1QipNNzGXDt5E84e-UmNdq2zS45m6Xb5u8Qqu5YX7a=h400-no" alt="Home Remodeling Danville, CA">
+            </div>
+          </div>
+          <p>
+            Once you’ve decided on the scope of your remodel, it’s time to start thinking about design. Whether you’re working with an architect or a designer, it’s essential to communicate your vision. Be sure to discuss your budget and timeline so that they can help you create a space that meets your needs.
+          </p>
+        </section>
+
+        <section style="background-image: url(https://lh3.googleusercontent.com/geougc/AF1QipN3ISUAYJ3jh7RTWrt8a2cyB--HeiNPlh0B67hr=h400-no);
+        background-size:cover;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.863);
+        padding: 40px;">
+        <div style="border: solid 1px #ccaa99; padding:40px; border-radius:0 40px 0;">
+          <h2>
+            Create a budget.
+          </h2>
+          <hr>
+          <br>
+          <p>
+            Once you’ve done your research, you’ll need to create a budget for your project. Make sure to factor in the cost of materials, labor, and any other fees associated with the project. It’s also important to set aside some money for unforeseen expenses that may come up along the way.
+          </p>
+          <p>
+            After you’ve created your budget, it’s time to start shopping for materials. When buying materials for a home renovation project, getting the best quality you can afford is essential.
+          </p>
+          <p>
+            Once you have all of your materials, it’s time to start working on the project. If you’re doing the work yourself, take your time and do a good job. If you’re hiring someone to do the work for you, make sure to find a reputable contractor who has experience with similar projects.
+          </p>
+        </div>
+        </section>
+
+        <section>
+          <div class="two-col">
+            <div>
+              <img style="height: 500px;" src="https://lh3.googleusercontent.com/geougc/AF1QipPwE1mwLRmmw0pqqCnLiKlx4FenUl9VQo4XYPmP=h400-no" alt="Home Remodeling Danville, CA">
+            </div>
+            <div style="border: solid 1px #ccaa99; padding: 25px; background-color: white; padding: 20px; box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; padding: 20px; border-radius:0 40px 0;">
+              <h2>
+                Find the right contractor.
+              </h2>
+              <hr>
+              <br>
+              <p>
+                Hiring a qualified and reputable contractor is one of the most important aspects of any remodeling project. Make sure to get multiple bids from different contractors, and be sure to ask for references. Once you’ve found the right contractor, communicate your vision for the project and ensure they’re on board with your goals. Finally, make sure to get everything in writing before work begins.
+              </p>
+              <p>
+                When it comes to home remodeling, there are many things to consider. But one of the most important things is finding the right contractor. Here are some tips for hiring a qualified and reputable contractor:
+              </p>
+              <ol style="padding-left: 30px;">
+                <li>
+                  Get multiple bids from different contractors.
+                </li>
+                <li>
+                  Ask for references from each contractor.
+                </li>
+                <li>
+                  Communicate your vision for the project with the contractor.
+                </li>
+                <li>
+                  Make sure the contractor is on board with your goals for the project.
+                </li>
+                <li>
+                  Get everything in writing before work begins.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            Start small.
+          </h2>
+          <p>
+            Start small with a few cosmetic changes if you’re not ready for a complete overhaul. Paint, new hardware, and updated fixtures can make a big difference in the look of your home without breaking the bank. You can also add new life to your home by rearranging your furniture or changing how you use certain rooms. If you have the time and energy, you can take on more significant projects like adding an addition or finishing your basement. Whatever changes you make, big or small, will help give your home a fresh new look.
+          </p>
+          <p>
+            If you’re ready for a more drastic change, consider renovating one or more rooms in your home. A <a href="https://ruggieriandco.com/services/kitchen-remodeling-services-danville/">kitchen</a> or <a href="https://ruggieriandco.com/services/bathroom-remodeling-danville/">bathroom</a> can add value to your home and make it more comfortable and functional. If you’re unsure where to start, talk to a contractor or designer about your options.
+          </p>
+        </section>
+
+       
+
+      <section>
+          <a class="button-link" href="https://ruggieriandco.com/">Visit Us</a>
+        </section>
+
+        <section>
+          <h2 style="text-align: center;">
+            Don't forget the outside.
+          </h2>
+          <p>
+            The exterior of your home is just as important as the inside regarding adding value. Be sure to update your landscaping, paint the exterior of your home, and make any necessary repairs to the outside of your home. These simple updates can go a long way in increasing your home’s value.
+          </p>
+          <p>
+            When you are trying to add value to your home, it is essential to remember that the exterior is just as important as the interior. Be sure to update your landscaping, paint the exterior of your home, and make any necessary repairs. These simple updates can go a long way in increasing your home’s value.
+          </p>
+        </section>
+
+        <section style="background-color: #ccaa99; padding: 40px;">
+          <h2 style="text-align: center;">
+            Contractor: Think long-term.
+          </h2>
+          <p>
+            Remodeling your home is a significant investment, so it’s essential to consider the future when making decisions. If you plan on selling your home in the future, choose materials and finishes that will appeal to buyers. If you’re planning on staying in your home for the long haul, choose materials and finishes that you love and will stand the test of time. When it comes to deciding between the two, always err on the side of choosing materials and finishes that will increase your home’s value.
+          </p>
+          <p>
+            If you’re planning on selling your home in the future, choosing materials and finishes that will appeal to buyers is essential. Use neutral colors and classic styles to ensure your home appeals to many buyers. Avoid anything too trendy or unique, as it may turn potential buyers off.
+          </p>
+        </section>
+
+        <section>
+          <h2 style="text-align:center;">
+            Have fun! Remodelling your home should be a fun and exciting experience.
+          </h2>
+          <p>
+            Be sure to enjoy the process and take pride in the finished product. Your home is an extension of who you are, so make it a reflection of your style and taste.
+          </p>
+          <p>
+            Your home should be a reflection of your style and taste. Take pride in your home and enjoy the process of making it beautiful. Remember that your home is an extension of who you are, so make it a place to which you love coming home. Creating a beautiful home is a journey, not a destination.
+          </p>
+          <p>
+            Remodelling your home can be a great way to add value and increase your enjoyment of living there. By following these tips, you can ensure your project is successful. Ruggieri & Co is a home remodelling company in Danville specializing in the <a href="https://ruggieriandco.com/services/whole-house-remodeling-danville/">whole house remodels</a>. We would be happy to help you with your project. Contact us today for a free consultation.
+          </p>
+        </section>
+
+        
+
+
+        <div>
+          <a
+          class="button-link"
+          href="https://google.com/maps/?cid=13280063033335453340"
+          >Find Us Here!</a
+        >
+        </div>
+        <br>
+        <section>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.566343483239!2d-122.00268108468086!3d37.82362537975059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb84c42f7d0c1969c!2sRuggieri%20%26%20Co%20Home%20Remodeling%20Danville!5e0!3m2!1sen!2sph!4v1649127382229!5m2!1sen!2sph"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            >Home%20Remodeling%20Danville,%20CA</iframe
+          >
+        </section>
+
+        <section>
+          <h2>Things to do in Danville, CA</h2>
+          <iframe
+            src="https://www.tripadvisor.com/Attractions-g60802-Activities-Danville_Tri_Valley_California.html"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <h2>Danville, CA News</h2>
+          <iframe
+            src="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjfyKSM9_v2AhUVF2AKHV21Cb4YABAAGgJ0bQ&ae=2&ohost=www.google.com&cid=CAESbOD2w3SMAO4qMk_IzPlFzbjoo5_gKQEmKcnWy4fiPpW7O01M1SlxGEAp6VH4ApliOJrpkYpm7lic0h670SCmwclBj0rH52EwOValrD1kcEHDgD_I2qRdSsTkNipth3mTaGsjSDVF2sI9ORWwtg&sig=AOD64_2dUZxo7Oj7TrLnf6LjjqzMOvdIag&q&adurl&ved=2ahUKEwiVoJ2M9_v2AhWKvpQKHSuZBpsQ0Qx6BAgCEAE"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="https://ruggieriandco.com/"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="./media.html"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="./index.html"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="http://www.pearltrees.com/ruggierico"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="https://sites.google.com/view/ruggiericohomeremodeling/home-remodeling-danville"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <iframe
+            src="https://danville-home-remodeling.business.site/"
+            style="border: 0px #ffffff none"
+            name=""
+            scrolling="yes"
+            frameborder="1"
+            marginheight="0px"
+            marginwidth="0px"
+            height="400px"
+            width="100%"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section>
+          <a
+            target="_bLank"
+            href="https://rank-fortress-digital-agency.github.io/ruggieriandco-07-22/"
+            >https://rank-fortress-digital-agency.github.io/ruggieriandco-07-22/</a
+          ><br />
+          <a
+            target="_bLank"
+            href="http://ruggieriandco-07-22.s3-website-us-west-2.amazonaws.com"
+            >http://ruggieriandco-07-22.s3-website-us-west-2.amazonaws.com</a
+          ><br />
+          <a
+            target="_bLank"
+            href="https://golden-figolla-677502.netlify.app/"
+            >https://golden-figolla-677502.netlify.app/</a
+          ><br />
+          <a
+            target="_bLank"
+            href="https://sites.google.com/view/ruggiericohomeremodeling/home-remodeling-danville"
+            >https://sites.google.com/view/ruggiericohomeremodeling/home-remodeling-danville</a
+          ><br />
+    
+        </section>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="side-bar">
+        <section>
+          <h2>Useful Links</h2>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/ruggieriandcompany">Facebook</a>
+            </li>
+            <li>
+              <a href="https://google.com/maps/?cid=13280063033335453340"
+                >Google Page</a
+              >
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC4h6_nEY2N5OZ-cqmrfVseg"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a href="http://www.pearltrees.com/ruggierico">Pearltrees</a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.google.com/calendar/u/0/embed?src=lkskporth34hi2tcjk4jqkb0ks@group.calendar.google.com&ctz=Asia/Manila&fbclid=IwAR2VUL_MLJcOXChQGBetpyoUO75w4Q5OdxXVJNEoUdMirVGPuw0JjwhEivI"
+                >Calendar</a
+              >
+            </li>
+            <li>
+              <a href="https://sites.google.com/view/homeremodelingdanville/"
+                >Google Site</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ruggierihomeremodelingdanville.weebly.com/?fbclid=IwAR339ydTSvq3UKMkZZQv7X3rzfq_hR4Ffyc0rvz4CmYKEqVzwWwBMz_90Rg"
+                >About</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Useful Links</h2>
+          <ul>
+            <li><a href="https://ruggieriandco.com/">Main</a></li>
+            <li><a href="https://g.page/Danville-Remodeling?share">Maps</a></li>
+            <li><a href="./media.html">Media</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
